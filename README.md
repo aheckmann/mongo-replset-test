@@ -5,7 +5,7 @@ Quickly set up a mongodb replica set test with authentication enabled.
 
 ## Use
 
-    $ sudo mongo test.js --shell
+    $ sudo mongo --setParameters=enableTestCommands=true test.js --shell
 
 After executing, you'll be dropped into the MongoDB shell. Once ready, the following is printed.
 
